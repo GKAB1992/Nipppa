@@ -1,9 +1,9 @@
 {
   // Name of the app and short name in case there isn't enough space
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
+  "name": "Nipppa",
+  "short_name": "NP",
   // Description what your app is
-  "description": "Github Page as a Progressive Web App",
+  "description": "Nip App",
 
   // Scope and start URL - these need to change to yours
   "scope": "/Nipppa/",
@@ -22,7 +22,7 @@
   // you may not be able to install the app. 
   "icons": [
       {
-        "src": "/Nipppa/img/icon.png",
+        "src": "/Nipppa/icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
