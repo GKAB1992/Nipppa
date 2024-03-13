@@ -314,15 +314,12 @@ function getBorderColor(index) {
 };
     </script>
     <script>
-        if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js').then(registration => {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            }, err => {
-            console.log('ServiceWorker registration failed: ', err);
-            });
-        });
-        }
+        if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/Nipppa/sw.js',
+          {scope: '/github-page-pwa/'}
+        )
+      }
     </script>
 </body>
 </html
