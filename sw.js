@@ -16,9 +16,6 @@ var VERSION = 'version_02';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
-  '/index.html',
-  '/styles/main.css',
-  '/scripts/main.js',
   '/https://cdn.jsdelivr.net/npm/chart.js',
   '/https://unpkg.com/simple-statistics@7.8.2/dist/simple-statistics.min.js'
 ]
